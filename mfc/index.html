@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFC | My Finance Control - Gestão Financeira Inteligente</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Domine suas finanças com o My Finance Control (MFC). O app definitivo para organizar gastos, planejar sua reserva de emergência e alcançar suas metas financeiras. 100% Offline e seguro.">
+    <meta name="keywords"
+        content="MFC, My Finance Control, gestão financeira, reserva de emergência, controle de gastos, finanças pessoais, app de finanças, Valdean Souza">
+    <meta name="author" content="Valdean P. Souza">
+    <link rel="canonical" href="https://valdean132.github.io/valdean132/mfc/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://valdean132.github.io/valdean132/mfc/">
+    <meta property="og:title" content="MFC | Gestão Financeira Doméstica Inteligente">
+    <meta property="og:description"
+        content="Organize seus gastos, planeje sua reserva de emergência e alcance suas metas com o My Finance Control. Interface intuitiva e segurança total.">
+    <meta property="og:image" content="https://valdean132.github.io/valdean132/mfc/images/app.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://valdean132.github.io/valdean132/mfc/">
+    <meta property="twitter:title" content="MFC | Domine suas finanças hoje">
+    <meta property="twitter:description" content="O app simples e potente para controle total do seu dinheiro.">
+    <meta property="twitter:image" content="https://valdean132.github.io/valdean132/mfc/images/app.png">
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="glow-bg"></div>
+
+    <nav class="mfc-nav">
+        <div class="logo-container">
+            <img src="images/icon.png" alt="MFC Icon" class="app-icon">
+            <div class="logo">MFC.</div>
+        </div>
+        <div class="nav-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Recursos</a>
+            <a href="#showcase">Visual</a>
+            <a href="#faq">Dúvidas</a>
+            <a href="images/my-finace-control_1.1.0.apk" class="btn-primary">Baixar APK</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <p class="tagline">INTELIGÊNCIA FINANCEIRA DOMÉSTICA</p>
+            <h1>Domine suas<br><span>finanças</span> hoje.</h1>
+            <p>O <strong>My Finance Control</strong> simplifica sua vida financeira com interfaces intuitivas e
+                relatórios precisos. Menos planilhas, mais liberdade.</p>
+            <div class="cta-group">
+                <a href="images/my-finace-control_1.1.0.apk" class="btn-primary">Download App <i
+                        class="fas fa-download ms-2"></i></a>
+                <a href="#features" class="btn-secondary"
+                    style="color: var(--text-main); text-decoration: none; display: flex; align-items: center; gap: 10px; font-weight: 600;">Explorar
+                    Recursos <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in">
+            <img src="./images/app_dark.jpeg" alt="MFC App Mockup" class="app-mockup">
+        </div>
+    </header>
+
+    <div class="section-intro">
+        <h2 class="fade-in">Tudo o que você precisa</h2>
+        <p class="text-muted fade-in">Um ecossistema completo para gerir seu patrimônio e futuro.</p>
+    </div>
+
+    <section id="features" class="features">
+        <!-- Dashboard -->
+        <div class="feature-card fade-in">
+            <div class="feature-header">
+                <i class="fas fa-chart-line"></i>
+                <h3>Dashboard</h3>
+            </div>
+            <p>Resumo em tempo real da sua saúde financeira em uma única tela inteligente.</p>
+            <ul class="bullet-list">
+                <li><b>Saldo Total:</b> Receitas mínus despesas.</li>
+                <li><b>Estatísticas:</b> Visão clara de gastos essenciais e não-essenciais.</li>
+                <li><b>Insights:</b> Comparação da reserva de emergência atual vs ideal.</li>
+            </ul>
+        </div>
+
+        <!-- Transações -->
+        <div class="feature-card fade-in">
+            <div class="feature-header">
+                <i class="fas fa-exchange-alt"></i>
+                <h3>Transações</h3>
+            </div>
+            <p>Controle granular de cada movimentação com interface de fluxo rápido.</p>
+            <ul class="bullet-list">
+                <li><b>Registro Rápido:</b> Formatação automática de valores.</li>
+                <li><b>Categorização:</b> Organização por tipo e essencialidade.</li>
+                <li><b>Gestão Total:</b> Edite ou remova lançamentos históricos com facilidade.</li>
+            </ul>
+        </div>
+
+        <!-- Reserva -->
+        <div class="feature-card fade-in">
+            <div class="feature-header">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Reserva de Emergência</h3>
+            </div>
+            <p>Seu porto seguro para imprevistos, calculado com base no seu custo de vida.</p>
+            <ul class="bullet-list">
+                <li><b>Configuração:</b> Defina aportes mensais automáticos.</li>
+                <li><b>Aporte/Resgate:</b> Gerencie seu fundo de segurança isoladamente.</li>
+                <li><b>Cálculo Ideal:</b> App sugere 6 meses das suas despesas essenciais.</li>
+            </ul>
+        </div>
+
+        <!-- Cofrinhos -->
+        <div class="feature-card fade-in">
+            <div class="feature-header">
+                <i class="fas fa-piggy-bank"></i>
+                <h3>Cofrinhos (Metas)</h3>
+            </div>
+            <p>Economize de forma lúdica e focada para seus maiores sonhos.</p>
+            <ul class="bullet-list">
+                <li><b>Cálculo de Prazo:</b> App diz quanto guardar por mês para atingir sua meta.</li>
+                <li><b>Progressão:</b> Acompanhe visualmente o quanto falta para cada objetivo.</li>
+            </ul>
+        </div>
+
+        <!-- Investimentos -->
+        <div class="feature-card fade-in">
+            <div class="feature-header">
+                <i class="fas fa-arrow-trend-up"></i>
+                <h3>Investimentos</h3>
+            </div>
+            <p>Visão consolidada da sua carteira de ativos e rendimentos projetados.</p>
+            <ul class="bullet-list">
+                <li><b>Carteira:</b> Cadastre ativos com valores e taxas de rendimento.</li>
+                <li><b>Projeção:</b> Visualize o rendimento mensal total consolidado.</li>
+            </ul>
+        </div>
+
+        <!-- Backup -->
+        <div class="feature-card fade-in">
+            <div class="feature-header">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>Backup & Privacidade</h3>
+            </div>
+            <p>Seus dados permanecem 100% no seu dispositivo. Offline e seguro.</p>
+            <ul class="bullet-list">
+                <li><b>Exportação:</b> Gere arquivos JSON para salvar na nuvem ou e-mail.</li>
+                <li><b>Importação:</b> Restaure todo o seu histórico em um novo dispositivo.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="showcase" class="showcase-grid">
+        <div class="fade-in">
+            <h2>Personalização de Temas</h2>
+            <p class="text-muted mb-4">Escolha entre o Tema Escuro para economia de bateria e conforto visual, ou o Tema
+                Claro para o máximo contraste.</p>
+            <div class="tip-box">
+                <i class="fas fa-lightbulb"></i>
+                <p class="small mb-0">A alteração de tema é instantânea em todas as telas do app.</p>
+            </div>
+        </div>
+        <div class="d-flex gap-3 fade-in">
+            <img src="images/app.png" alt="App Dark Mode" class="showcase-img">
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="text-center mb-5 fade-in">Dúvidas Frequentes</h2>
+            <div class="row">
+                <div class="col-md-6 fade-in">
+                    <div class="question-card">
+                        <h4>Como recuperar minha senha?</h4>
+                        <p class="text-muted">Por segurança, não armazenamos sua senha na nuvem. Se esquecer, será
+                            necessário reinstalar e importar um backup.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 fade-in">
+                    <div class="question-card">
+                        <h4>Meus dados são compartilhados?</h4>
+                        <p class="text-muted">Não. O MFC funciona 100% offline. Somente você tem acesso aos seus dados
+                            financeiros.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 fade-in">
+                    <div class="question-card">
+                        <h4>O cofrinho usa dinheiro da Reserva?</h4>
+                        <p class="text-muted">Não. Eles são saldos independentes para facilitar sua organização e foco.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 fade-in">
+                    <div class="question-card">
+                        <h4>Dica de Uso Máster</h4>
+                        <p class="text-muted">Faça backups semanais. A segurança dos seus dados é sua maior prioridade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 80px 10%; background: var(--bg-dark); border-top: 1px solid var(--glass-border);">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+            <div class="logo-container">
+                <img src="images/icon.png" alt="MFC Icon" class="app-icon" style="filter: grayscale(1);">
+                <div class="logo opacity-50">MFC.</div>
+            </div>
+            <p class="small text-muted mb-0">&copy; 2026 MFC App. Desenvolvido por Valdean Souza para controle real.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

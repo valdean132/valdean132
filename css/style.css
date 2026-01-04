@@ -210,10 +210,16 @@ section {
 .links-btn {
     color: var(--text-primary);
     transition: var(--transition);
+
+    border-color: var(--border-color);
 }
 
 .links-btn:hover {
     transform: translateY(-5px) scale(1.01);
+
+    border-color: var(--text-primary);
+    background: var(--text-primary);
+    color: var(--bg-color);
 }
 
 /* Responsive Improvements */
