@@ -1,0 +1,272 @@
+:root {
+    --bg-color: #000000;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+    --link-color: #0d6efd;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-blur: blur(15px);
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+[data-bs-theme="light"] {
+    --bg-color: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: #555555;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --glass-bg: rgba(0, 0, 0, 0.03);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Fixed to Floating Navbar */
+.navbar {
+    padding: 1.5rem 0;
+    transition: var(--transition);
+    z-index: 1000;
+    background: transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar.scrolled {
+    padding: 0.8rem 1rem;
+    margin-top: 20px;
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    width: 90%;
+    left: 5%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    color: var(--text-primary) !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--link-primary) !important;
+}
+
+/* Dropdown Estilo Glass */
+.dropdown-menu {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px !important;
+}
+
+.dropdown-item {
+    color: var(--text-primary);
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: var(--transition);
+}
+
+.dropdown-item:hover {
+    background: var(--text-primary);
+    color: var(--bg-color);
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle at center, rgba(255,255,255,0.03) 0%, transparent 70%);
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 12vw, 8rem);
+    font-weight: 800;
+    margin-bottom: 2rem;
+    letter-spacing: -3px;
+    line-height: 0.85;
+}
+
+/* Sections */
+section {
+    padding: 120px 0;
+}
+
+/* Cards Structure */
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 2.5rem;
+    height: 100%;
+    transition: var(--transition);
+}
+
+.glass-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--text-primary);
+}
+
+.glass-card h4,
+.glass-card h5,
+.glass-card h6 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary) !important;
+}
+
+.glass-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.card-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+/* Skills */
+.skill-badge {
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    padding: 8px 18px;
+    border-radius: 50px;
+    margin: 4px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.85rem;
+    transition: var(--transition);
+}
+.skill-badge:hover {
+    border-color: var(--text-primary);
+    background: var(--text-primary);
+    color: var(--bg-color);
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-primary);
+    transition: var(--transition);
+}
+
+/* Transitions */
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s ease-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.links-btn {
+    color: var(--text-primary);
+    transition: var(--transition);
+}
+
+.links-btn:hover {
+    transform: translateY(-5px) scale(1.01);
+}
+
+/* Responsive Improvements */
+@media (max-width: 1400px) {
+    .hero h1 { font-size: 7rem; }
+}
+
+@media (max-width: 1199px) {
+    .hero h1 { font-size: 6rem; }
+    section { padding: 100px 0; }
+    .section-title { font-size: 2.8rem; }
+}
+
+@media (max-width: 991px) {
+    .navbar.scrolled {
+        left: 3%;
+        width: 94%;
+        margin-top: 15px;
+        padding: 0.6rem 1rem;
+    }
+    .hero h1 { font-size: 5rem; }
+    section { padding: 80px 0; }
+    .section-title { font-size: 2.4rem; margin-bottom: 3.5rem; }
+    .glass-card { padding: 2rem; }
+}
+
+@media (max-width: 767px) {
+    .hero h1 { font-size: 4rem; letter-spacing: -2px; }
+    .hero p { font-size: 1.1rem; }
+    .section-title { font-size: 2rem; }
+    .navbar-brand { font-size: 1.3rem; }
+    .glass-card { padding: 1.5rem; }
+    .hero { height: auto; min-height: 100vh; padding: 120px 0 80px; }
+}
+
+@media (max-width: 575px) {
+    .navbar.scrolled {
+        left: 0;
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .hero h1 { font-size: 3.2rem; }
+    .section-title { font-size: 1.8rem; margin-bottom: 2.5rem; }
+    .container { padding-left: 20px; padding-right: 20px; }
+    .btn { width: 100%; margin-top: 10px !important; }
+    .d-flex.gap-3 { flex-direction: column; }
+}
+
+/* High DPI / Large Screens refinement */
+@media (min-width: 2000px) {
+    .container { max-width: 1600px; }
+    .hero h1 { font-size: 10rem; }
+}

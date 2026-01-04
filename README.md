@@ -1,31 +1,69 @@
-### Olá! Me chamo Valdean Souza😊👋🏽
-##
+# Olá! Me chamo Valdean Souza 😊 👋
 
 <div align="center">
-  <a href="https://github.com/valdean132" target="_blanck">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=valdean132&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=valdean132&layout=compact&langs_count=7&theme=dracula"/>
+  <img src="https://valdean132.github.io/curriculo/profile.png" width="150px" style="border-radius: 50%" />
 </div>
-  
- <div style="display: inline_block" align="center"><br>
-  <img align="center" alt="val-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="val-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-  <img align="center" alt="val-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="val-PHP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg">
-  <img align="center" alt="val-msql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-  <img align="center" alt="val-mongodb" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
+
+<p align="center">
+  <strong>Full-Stack Developer | 6+ Anos de Experiência</strong>
+</p>
+
+<p align="center">
+  Especialista em construir soluções ponta a ponta, desde a arquitetura backend até a interface do usuário, combinando programação sólida com expertise em infraestrutura de redes.
+</p>
+
+---
+
+### � Tecnologias e Ferramentas
+
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <br />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 </div>
-  
-  ##
-<div style="display: inline_block" align="center">
- <a href="https://instagram.com/v_souzap/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href="https://facebook.com/ValdeaanSouza" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>
- <a href="https://web.whatsapp.com/send?phone=5592992961661" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
- <a href = "mailto:valdeanpds@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  
-  ##
-  
-  ![Snake animation](https://github.com/valdean132/valdean132/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+### � Conecte-se comigo
+
+<div align="center">
+  <a href="https://api.whatsapp.com/send/?phone=5592986203822" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/valdean-souza-2778241b3/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/valdean132" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:valdeanpds@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </div>
-  
-  
+
+---
+
+### 📊 Estatísticas do GitHub
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=valdean132&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=valdean132&layout=compact&theme=dark" />
+</div>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=valdean132&theme=dark" />
+</p>
+
+---
+
+<p align="center">
+  <i>"Transformando café em código e infraestrutura em soluções."</i>
+</p>
