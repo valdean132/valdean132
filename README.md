@@ -1,7 +1,7 @@
 # Olá! Me chamo Valdean Souza 😊 👋
 
 <div align="center">
-  <img src="https://valdean132.github.io/curriculo/profile.png" width="150px" style="border-radius: 50%" />
+  <img src="images/valdean.jpeg" width="150px" style="border-radius: 50%" />
 </div>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 ---
 
-### � Tecnologias e Ferramentas
+### 👩‍💻 Tecnologias e Ferramentas
 
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -32,7 +32,7 @@
 
 ---
 
-### � Conecte-se comigo
+### 📱 Conecte-se comigo
 
 <div align="center">
   <a href="https://api.whatsapp.com/send/?phone=5592986203822" target="_blank">
