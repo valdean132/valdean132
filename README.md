@@ -1,7 +1,7 @@
 # Olá! Me chamo Valdean Souza 😊 👋
 
 <div align="center">
-  <img src="images/valdean.jpeg" width="150px" style="border-radius: 50%" />
+  <img src="images/img_valdean.jpeg" width="150px" style="border-radius: 50%" />
 </div>
 
 <p align="center">
