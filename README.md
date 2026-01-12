@@ -54,12 +54,18 @@
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=valdean132&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=valdean132&layout=compact&theme=dark" />
+  <a href="https://github.com/valdean132">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=valdean132&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+  </a>
+  <a href="https://github.com/valdean132">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=valdean132&layout=compact&theme=dark" />
+  </a>
 </div>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=valdean132&theme=dark" />
+  <a href="https://github.com/valdean132">
+    <img src="https://streak-stats.vercel.app/?user=valdean132&theme=dark" />
+  </a>
 </p>
 
 ---
